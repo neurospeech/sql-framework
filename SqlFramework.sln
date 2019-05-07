@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlFramework", "SqlFramework\SqlFramework.csproj", "{C27D3362-9A88-4B00-805A-3245B50A45EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlFrameworkTests", "SqlFrameworkTests\SqlFrameworkTests.csproj", "{E7999FF7-379E-484C-8DB8-8758AA462821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F63C5DCF-823B-4FEE-AA1C-533C77690782}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C27D3362-9A88-4B00-805A-3245B50A45EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27D3362-9A88-4B00-805A-3245B50A45EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27D3362-9A88-4B00-805A-3245B50A45EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27D3362-9A88-4B00-805A-3245B50A45EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7999FF7-379E-484C-8DB8-8758AA462821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7999FF7-379E-484C-8DB8-8758AA462821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7999FF7-379E-484C-8DB8-8758AA462821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7999FF7-379E-484C-8DB8-8758AA462821}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6669DAB2-50E2-43CA-8EE8-2857EB649C96}
+	EndGlobalSection
+EndGlobal
