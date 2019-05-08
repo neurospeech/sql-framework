@@ -23,6 +23,10 @@ namespace SqlFramework
         {
             this.Items.Add(query);
         }
+        public void Add(FormattableString query)
+        {
+            this.Items.Add(query);
+        }
 
         private List<SqlQuery> Items = new List<SqlQuery>();
 

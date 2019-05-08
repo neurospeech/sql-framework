@@ -16,6 +16,7 @@ namespace SqlFrameworkTests
             var query = new SqlSelect();
 
             query.Table.TableName = "products";
+            query.Filter.Add($"id <> {1}");
 
             string t = query.ToString();
             Assert.NotNull(t);
